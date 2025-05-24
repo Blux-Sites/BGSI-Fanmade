@@ -1,0 +1,301 @@
+head{
+    font-family: 'Irish Grover';
+}
+.header{
+    height: 123px;
+    background-color: rgb(41, 61, 163, 70%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Title_Block{
+margin-right: 720px;
+}
+.Title{
+    font-size: 64px;
+    font-family: 'Irish Grover';
+    color: #FFFFFF;
+    transform: rotate(4deg);
+    margin-top: 8px;
+}
+.Subtitle{
+    font-size: 16px;
+    font-family:'Irish Grover' ;
+    color: #FF0000;
+    padding-left: 40px;
+    padding-top: 6px;
+}
+.Menu{
+    font-family: 'Irish Grover';
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Menu_tag{
+    padding-right: 41px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+.tag{
+    background-color: #D9D9D9;
+    width: 420px;
+    height: 550px;
+    margin-left: 60px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Tag_menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 28px
+}
+.Info_tag{
+    margin-left: 75px;
+}
+.img1{
+    width: 260px;
+    height: 260px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.Title_Play_tag{
+    font-size: 32px;
+    font-family: 'Irish Grover';
+    text-align: center;
+    margin-bottom: 15px;
+}
+button{
+     width: 235px;
+     height: 77px;
+     border-radius: 40px;
+     border: none;
+     background-color: #7878E6;
+     font-family: 'Irish Grover';
+}
+.button_Play{
+    color: white;
+    font-size: 48px;
+}
+.Subtitle_Play_tag{
+    font-size: 12px;
+    color: #FF0000;
+    font-family: 'Irish Grover';
+    margin-top: 20px;
+}
+.button_Values{
+    margin-top:111px;
+    font-size: 36px;
+    color: white;
+}
+.Subtitle_Values_tag{
+    font-size: 13px;
+    color: #FF0000;
+    font-family: 'Irish Grover';
+    margin-top: 20px;
+}
+.button_Info{
+    margin-top:111px;
+    font-size: 42px;
+    color: white;
+}
+.Subtitle_Info_tag{
+    font-size: 13px;
+    color: #FF0000;
+    font-family: 'Irish Grover';
+    margin-top: 10px;
+    text-align: center;
+}
+.Info{
+    background-color: #D9D9D9;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 730px;
+}
+.Block_info{
+    width: 375px;
+    height: 610px;
+    background-color: #BFBFBF;
+    border-radius: 40px;
+}
+.Title_info{
+    font-size: 96px;
+    font-family: 'Irish Grover';
+
+}
+.img_info{
+    width: 320px;
+    height: 320px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.subtitle_img{
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: 'Irish Grover';
+}
+.button_link{
+    width: 100px;
+    height: 40px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.Title_Info2{
+    font-family: 'Irish Grover';
+    margin-left: 20px;
+}
+.Blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Block_info2{
+    width: 750px;
+    height: 610px;
+    background-color: #BFBFBF;
+    margin-left:30px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img_block{
+    width: 750px;
+    height: 400px;
+    margin-bottom: 180px;
+    border-radius: 40px;
+}
+.button_Play_menu{
+margin-left: 5px;
+margin-top: 5px;
+color: #FFFFFF;
+font-size: 42px;
+width: 250px;
+height: 90px;
+}
+.g{
+    width: 125px;
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 90px;
+}
+.p{
+    font-size: 16px;
+    font-family: 'Irish Grover';
+    color: #FF0000;
+    margin-left: 33px;
+}
+.Interesting{
+    background-color: rgb(152, 127, 164, 59%);
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 40px;
+    margin-top: 17px;
+    margin-bottom: 18px;
+}
+.idk{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Donate_menu{
+    background-color: #987FA4;
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    margin-top: 17px;
+    margin-bottom: 18px;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+.Wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 25px;
+}
+.Wrap1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button_interesting1{
+    margin-top: 180px;
+    background-color: #8A4BA9;
+}
+.button_interesting2{
+    margin-top: 180px;
+    background-color: #8A4BA9;
+}
+.subtitle_donate2{
+    font-size: 12px;
+    font-family: 'Irish Grover';
+    color: #FF0000;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 25px;
+
+}
+.subtitle_donate1{
+    font-size: 12px;
+    font-family: 'Irish Grover';
+    color: #FF0000;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 25px;
+    margin-bottom: 12px;
+}
+.img2{
+    margin-left: 5px;
+    margin-bottom: 210px;
+}
+.button_donate{
+    margin-left: 15px;
+    background-color: #8A4BA9;
+}
+.Donate_subtitle{
+    font-size: 12px;
+    font-family: 'Irish Grover';
+    color: #FF0000;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 40px;
+    margin-bottom: 22px;
+}
+.Donate_title{
+        font-size: 96px;
+        font-family: 'Irish Grover';
+    margin-left: 580px;
+}
+.Donate{
+    background-color: #CAB8C7;
+}
+.bb{
+    font-size: 36px;
+}
+.might1{
+    font-size: 24px;
+    font-family: 'Irish Grover';
+    color: black;
+    text-align: center;
+}
+.img3{
+    background-color: #8A4BA9;
+}
