@@ -299,3 +299,29 @@ height: 90px;
 .img3{
     background-color: #8A4BA9;
 }
+.b{
+    height: 100px;
+    background-color:#6978BF ;
+    display: flex;
+    flex-direction: space-around;
+    justify-content: center;
+}
+.o{
+    width: 40px;
+    height: 40px;
+}
+.nameS{
+    margin-top: 30px;
+    margin-right: 1230px;
+    font-size: 24px;
+    font-family: 'Irish Grover';
+    color: #FFFFFF;
+}
+.Links{
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.oo{
+    width: 50px;
+    height: 50px;
+}
