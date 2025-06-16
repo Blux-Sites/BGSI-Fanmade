@@ -175,7 +175,7 @@ let button = document.getElementById('button_menu')
 let menu = document.getElementById('Block_info')
 let menub = document.getElementById('menu')
 let return1 = document.getElementById('button_return')
-
+let skibidi = document.getElementById('skibidi')
 button.onclick = function(){
     menub.style.display = "none"
     button.style.display = "none"
