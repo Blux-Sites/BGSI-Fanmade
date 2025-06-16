@@ -3,12 +3,13 @@ head{
     width: 100%;
 }
 .header{
-    height: 110px;
+    height: 120px;
     background-color: rgb(41, 61, 163, 70%);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 .Title_Block{
 margin-right: 120px;
@@ -67,6 +68,9 @@ margin-right: 120px;
     margin-top: 15px;
     border-radius: 10px;
 }
+.Tag_menu_top{
+    height: 80%;
+}
 .img3{
     width: 260px;
     height: 260px;
@@ -121,11 +125,12 @@ margin-right: 120px;
 }
 .Info{
     background-color: #D9D9D9;
-    margin-top: 25px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 730px;
+    height: 750px;
+    width: 100%;
 }
 .Block_info{
     width: 375px;
@@ -136,7 +141,6 @@ margin-right: 120px;
 .Title_info{
     font-size: 96px;
     font-family: 'Irish Grover';
-
 }
 .img_info{
     width: 320px;
@@ -166,6 +170,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 .Block_info2{
     width: 750px;
@@ -311,6 +316,7 @@ height: 90px;
     display: flex;
     flex-direction: space-around;
     justify-content: center;
+    width: 100%;
 }
 .nameS{
     margin-top: 30px;
@@ -359,6 +365,7 @@ height: 90px;
 .Ads{
     height: 742px;
     background-image: url(https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-1.2.1&w=1440&h=740);
+    width: 100%;
 }
 .Ad1{
     display: flex;
@@ -404,7 +411,7 @@ color: #FFFFFF;
     font-family: 'Irish Grover';
     width: 400px;
     height: 70px;
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 .message {
@@ -434,6 +441,7 @@ color: #FFFFFF;
 #upd{
     background-image: url(https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-1.2.1&w=1440&h=740);
     filter: saturate(40%);
+    width: 100%;
 }
 .Update_block{
     height: 580px;
@@ -622,4 +630,184 @@ color: #FFFFFF;
     50% { transform: translate(0.5px, -0.5px) rotate(0.3deg); }
     75% { transform: translate(0.4px, 0.3px) rotate(0.5deg); }
     100% { transform: translate(0, 0) rotate(0deg); }
+}
+/* Стили для прелоадера */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s;
+}
+
+#preloader p {
+    font-size: 24px;
+    font-family: 'Irish Grover';
+    margin-top: 20px;
+    color: rgb(41, 61, 163, 70%);
+}
+    
+    .spinner {
+      width: 100px;
+      height: 100px;
+      border: 10px solid #ddd;
+      border-top: 8px solid rgb(41, 61, 163, 70%);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-bottom: 20px;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .mobile-menu-btn{
+        display: none;
+    }
+    
+    /* Стили для контента */
+    #content {
+      display: none; /* Скрываем контент до окончания загрузки */
+    }
+.Button_menu_phone{
+    display: none;
+}
+@media (max-width: 500px){
+    .Title{
+    font-size: 48px;
+    font-family: 'Irish Grover';
+    color: #FFFFFF;
+    transform: rotate(4deg);
+    margin-top:12px;
+}
+.img_s{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.Button_menu_phone{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.Subtitle{
+    font-size: 16px;
+    font-family:'Irish Grover' ;
+    color: #FF0000;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+#timer {
+    font-size:36px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+    font-family: 'Irish Grover';
+    width: 230px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+.Menu_tag{
+    font-size: 64px;
+}
+
+.message {
+    font-size: 14px;
+    opacity: 0.9;
+    font-family: 'Irish Grover';
+    color: #FFFFFF;
+    display: none;
+}
+.header{
+    height: 100px;
+    background-color: rgb(41, 61, 163, 70%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.Title_Block{
+margin-right: 0px;
+}
+.Menu{
+    display: none;
+}
+.mobile-menu-btn{
+    display:block;
+    font-size: 64px;
+    font-family:'Irish Grover' ;
+    color: white;
+}
+.tag{
+    background-color: #D9D9D9;
+    width: 405px;
+    height: 550px;
+    margin-left: auto;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.Tag_menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Info{
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 750px;
+    width: 100%;
+}
+.Block_info{
+    width: 335px;
+    height: 610px;
+    background-color: #BFBFBF;
+    border-radius: 40px;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.Tag_menu_top{
+    height: 80%;
+}
+.img3{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.img_info{
+    width: 290px;
+    height: 290px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.Block_info2{
+    width: 440px;
+    height: 610px;
+    background-color: #BFBFBF;
+    margin-left:30px;
+    border-radius: 40px;
+    display: none;
+    
+}
 }

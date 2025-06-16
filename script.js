@@ -197,5 +197,48 @@ document.addEventListener('DOMContentLoaded', function() {
         tags.forEach(tag => {
             tag.classList.add('animate');
         });
-    }, 100);
+    }, 2200);
 });
+// Проверка на обновление (суббота 11:30)
+function checkForUpdate() {
+    const now = new Date();
+    const day = now.getDay(); // 0-6 (0=воскресенье, 6=суббота)
+    const hours = now.getHours();
+    const minutes = now.getMinutes();
+    
+    // Если суббота и время 11:30
+    if (day === 6 && hours === 11 && minutes === 30) {
+        const preloaderText = document.querySelector('#preloader p');
+        if (preloaderText) {
+            preloaderText.textContent = 'Updating site';
+        }
+        
+        // Ждем 5 секунд и перезагружаем
+        setTimeout(() => {
+            location.reload();
+        }, 10000);
+        
+        return true;
+    }
+    return false;
+}
+
+// Запускаем проверку обновления
+const isUpdateTime = checkForUpdate();
+
+// Если не время обновления, стандартное поведение прелоадера
+if (!isUpdateTime) {
+    setTimeout(function() {
+        const preloader = document.getElementById('preloader');
+        const content = document.getElementById('content');
+        
+        // Плавное исчезновение прелоадера
+        preloader.style.opacity = '0';
+        
+        // После завершения анимации скрываем прелоадер
+        setTimeout(() => {
+            preloader.style.display = 'none';
+            if (content) content.style.display = 'block';
+        }, 0);
+    }, 2000);
+}
