@@ -853,7 +853,7 @@ display: none;
 .title_ads{
     font-size: 96px;
     font-family: 'Irish Grover';
-    margin-left: 90px;
+    margin-left: 0px;
     padding-top: 20px;
     color: #FFFFFF;
 }
@@ -874,7 +874,7 @@ display: none;
     justify-content: center;
     border-radius: 40px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-bottom: 50px;
 
 }
@@ -882,6 +882,9 @@ display: none;
     height: 1280px;
     background-image: url(https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-1.2.1&w=1440&h=740);
     width: 100%;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Ad1{
     display: none;
@@ -893,7 +896,7 @@ display: none;
     align-items: center;
 }
 .Update_block{
-    height: 1800px;
+    height: 1950px;
     width: 325px;
     background-size: 325px 1300px;
     border-radius: 50px;
@@ -902,7 +905,7 @@ display: none;
     background-color: rgba(0, 0, 0, 0.499);
 }
 .Update_title{
-    font-size: 72px;
+    font-size: 64px;
     color: white;
     font-family: 'Irish Grover';
     margin-bottom: 20px;
@@ -912,21 +915,37 @@ display: none;
     background-image: url(https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-1.2.1&w=1440&h=740);
     filter: saturate(40%);
     width: 100%;
-    height: 2000px;
+    height: 2100px;
 }
 .Update_menu2{
     width: 260px;
-    height: 1750px;
+    height: 1900px;
     border-radius:30px ;
 }
 .Upd_menu1{
     width: 260px;
-    height: 1750px;
+    height: 1900px;
     border: 3px solid white;
     border-radius: 40px;
     
 }
 .Update{
+    display: none;
+}
+.b{
+    height: 100px;
+    background-color:#353c60 ;
+    width: 100%;
+}
+.nameS{
+    font-size: 24px;
+    font-family: 'Irish Grover';
+    color: #FFFFFF;
+}
+.security{
+    font-size: 20px;
+}
+.b{
     display: none;
 }
 }
