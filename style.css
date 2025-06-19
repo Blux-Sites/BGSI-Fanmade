@@ -684,7 +684,7 @@ color: #FFFFFF;
 .Button_menu_phone{
     display: none;
 }
-@media (max-width: 450px){
+@media (max-width: 380px){
     .Title{
     font-size: 48px;
     font-family: 'Irish Grover';
@@ -720,6 +720,326 @@ color: #FFFFFF;
     height: 70px;
     margin-top: 40px;
     margin-left: 0px;
+}
+.Menu_tag{
+    font-size: 64px;
+}
+
+.message {
+    font-size: 14px;
+    opacity: 0.9;
+    font-family: 'Irish Grover';
+    color: #FFFFFF;
+    display: none;
+}
+.header{
+    height: 100px;
+    background-color: rgb(41, 61, 163, 70%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.Title_Block{
+margin-right: 0px;
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s;
+}
+
+#preloader p {
+    font-size: 24px;
+    font-family: 'Irish Grover';
+    margin-top: 20px;
+    color: rgb(41, 61, 163, 70%);
+}
+    
+    .spinner {
+      width: 110px;
+      height: 110px;
+      border: 14px solid #ddd;
+      border-top: 12px solid rgb(41, 61, 163, 70%);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-bottom: 20px;
+    }
+.Menu{
+    display: none;
+}
+.mobile-menu-btn{
+    display:block;
+    font-size: 64px;
+    font-family:'Irish Grover' ;
+    color: white;
+}
+.tag{
+    background-color: #D9D9D9;
+    width: 320px;
+    height: 550px;
+    margin-left: auto;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    margin: 0 0 25px 0;
+}
+.Tag_menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.Info{
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 750px;
+    width: 100%;
+}
+.Block_info{
+    width: 380px;
+    height: 630px;
+    background-color: #BFBFBF;
+    border-radius: 40px;
+}
+.img1{
+    width: 270px;
+    height: 270px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.Tag_menu_top{
+    height: 80%;
+}
+.img3{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.img_info{
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+.Block_info2{
+    width: 330px;
+    height: 610px;
+    background-color: #BFBFBF;
+    margin-left:15px;
+    border-radius: 40px;
+    display: none;
+    
+}
+.Block_info{
+    width: 330px;
+    height: 610px;
+    background-color: #BFBFBF;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.Button_block_menu{
+    width: 50px;
+    height: 610px;
+    background-color: #BFBFBF;
+    border-radius: 40px;
+    display: none;
+    
+}
+.button_noob{
+    width: 1px;
+    height: 1px;
+    border: none;
+    background-color: #BFBFBF;
+    font-size: 90px;
+    color: #FFFFFF;
+    margin-top: 220px;
+    font-family: 'Irish Grover';
+    margin-left: 5px;
+    display: none;
+}
+.Ad_sell{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.566);
+    width: 270px;
+    height: 500px;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.Ad2{
+display: none;
+}
+.title_ads{
+    font-size: 96px;
+    font-family: 'Irish Grover';
+    margin-left: 0px;
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+.title_sell{
+    color: white;
+    font-size: 52px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Irish Grover';
+}
+.Ads_menu{
+    width: 330px;
+    height: 1100px;
+    background-color: rgba(10, 2, 30, 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+
+}
+.Ads{
+    height: 1280px;
+    background-image: url(https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-1.2.1&w=1440&h=740);
+    width: 100%;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Ad1{
+    display: none;
+}
+.UpdateLog{
+    height: 730px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.Update_block{
+    height: 1180px;
+    width: 350px;
+    background-size: 325px 1300px;
+    border-radius: 50px;
+    flex-direction: row;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.499);
+}
+.Update_title{
+    font-size: 64px;
+    color: white;
+    font-family: 'Irish Grover';
+    margin-bottom: 20px;
+    
+}
+#upd{
+    background-image: url(https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-1.2.1&w=1440&h=740);
+    filter: saturate(40%);
+    width: 100%;
+    height: 1280px;
+}
+.Update_menu2{
+    width: 350px;
+    height: 1180px;
+    border-radius:30px ;
+}
+.Upd_menu1{
+    width: 350px;
+    height: 1180px;
+    border: 0px solid white;
+    border-radius: 40px;
+    margin-top: 0px;
+    margin-left: -30px;
+}
+.Update{
+    display: none;
+}
+.b{
+    height: 100px;
+    background-color:#353c60 ;
+    display: flex;
+    flex-direction: space-around;
+    justify-content: center;
+    width: 100%;
+}
+.nameS{
+    margin-top: 30px;
+    margin-right: 0px;
+    font-size: 24px;
+    font-family: 'Irish Grover';
+    color: #FFFFFF;
+}
+.security{
+    font-size: 20px;
+}
+.Update_block{
+    animation: none;
+    filter: saturate(1000%);
+}
+.Update_p{
+    font-size: 20px;
+    font-family: 'Irish Grover';
+    color: white;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+}
+@media (min-width: 381px) and (max-width: 500px){
+    .Title{
+    font-size: 52px;
+    font-family: 'Irish Grover';
+    color: #FFFFFF;
+    transform: rotate(4deg);
+    margin-top:12px;
+    margin-left: 5px;
+}
+.img_s{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.Button_menu_phone{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.Subtitle{
+    font-size: 16px;
+    font-family:'Irish Grover' ;
+    color: #FF0000;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+#timer {
+    font-size:36px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    font-family: 'Irish Grover';
+    width: 250px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 20px;
 }
 .Menu_tag{
     font-size: 64px;

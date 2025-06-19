@@ -16,7 +16,7 @@ const timerDisplay = document.getElementById('timer');
             const target = new Date();
             
             // Устанавливаем целевое время на субботу 22:00
-            target.setHours(22, 0, 0, 0);
+            target.setHours(23, 0, 0, 0);
             
             // Текущий день недели (0=воскресенье, 6=суббота)
             const currentDay = now.getDay();
@@ -27,7 +27,7 @@ const timerDisplay = document.getElementById('timer');
             // Если сегодня суббота
             if (currentDay === 6) {
                 // Если сейчас уже после 22:00, переключаем на следующую субботу
-                if (now.getHours() >= 22) {
+                if (now.getHours() >= 23) {
                     daysToAdd = 7;
                 } else {
                     // Если до 22:00 - сегодняшний день
