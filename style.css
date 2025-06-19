@@ -711,7 +711,7 @@ color: #FFFFFF;
     padding-top: 3px;
 }
 #timer {
-    font-size:32px;
+    font-size:36px;
     font-weight: bold;
     letter-spacing: 3px;
     color: #FFFFFF;
@@ -768,8 +768,8 @@ margin-right: 0px;
     .spinner {
       width: 100px;
       height: 100px;
-      border: 10px solid #ddd;
-      border-top: 8px solid rgb(41, 61, 163, 70%);
+      border: 12px solid #ddd;
+      border-top: 10px solid rgb(41, 61, 163, 70%);
       border-radius: 50%;
       animation: spin 1s linear infinite;
       margin-bottom: 20px;
