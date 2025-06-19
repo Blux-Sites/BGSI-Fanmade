@@ -684,7 +684,7 @@ color: #FFFFFF;
 .Button_menu_phone{
     display: none;
 }
-@media (max-width: 380px){
+@media (max-width: 390px){
     .Title{
     font-size: 48px;
     font-family: 'Irish Grover';
@@ -1004,9 +1004,9 @@ display: none;
     margin-right: 10px;
 }
 }
-@media (min-width: 381px) and (max-width: 420px){
+@media (min-width: 391px) and (max-width: 420px){
     .Title{
-    font-size: 52px;
+    font-size: 56px;
     font-family: 'Irish Grover';
     color: #FFFFFF;
     transform: rotate(4deg);
@@ -1024,22 +1024,22 @@ display: none;
     display: none;
 }
 .Subtitle{
-    font-size: 16px;
+    font-size: 18px;
     font-family:'Irish Grover' ;
     color: #FF0000;
-    padding-left: 20px;
+    padding-left: 30px;
     padding-top: 3px;
 }
 #timer {
-    font-size:36px;
+    font-size:40px;
     font-weight: bold;
     letter-spacing: 3px;
     color: #FFFFFF;
     font-family: 'Irish Grover';
-    width: 250px;
+    width: 280px;
     height: 70px;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .Menu_tag{
     font-size: 64px;
@@ -1105,7 +1105,7 @@ margin-right: 0px;
 }
 .tag{
     background-color: #D9D9D9;
-    width: 320px;
+    width: 400px;
     height: 550px;
     margin-left: auto;
     border-radius: 35px;
@@ -1138,8 +1138,8 @@ margin-right: 0px;
     border-radius: 40px;
 }
 .img1{
-    width: 270px;
-    height: 270px;
+    width: 300px;
+    height: 300px;
     margin-top: 15px;
     border-radius: 20px;
 }
