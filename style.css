@@ -684,7 +684,7 @@ color: #FFFFFF;
 .Button_menu_phone{
     display: none;
 }
-@media (max-width: 378px){
+@media (max-width: 450px){
     .Title{
     font-size: 48px;
     font-family: 'Irish Grover';
