@@ -155,12 +155,17 @@ margin-right: 120px;
     font-family: 'Irish Grover';
 }
 .button_link{
-    width: 100px;
-    height: 40px;
+    border: none;
+    background-color: #bfbfbf;
 }
 a{
     text-decoration: none;
     color: #FFFFFF;
+}
+.a{
+        font-family: 'Irish Grover';
+        font-size: 20px;
+        color: blue;
 }
 .Title_Info2{
     font-family: 'Irish Grover';
@@ -488,7 +493,6 @@ color: #FFFFFF;
 .Update{
     font-size: 64px;
     font-family: 'Irish Grover';
-    margin-left: 20px;
     margin-left: 480px;
     color: white;
 }
@@ -686,6 +690,7 @@ color: #FFFFFF;
     color: #FFFFFF;
     transform: rotate(4deg);
     margin-top:12px;
+    margin-left: 5px;
 }
 .img_s{
     width: 40px;
@@ -710,10 +715,11 @@ color: #FFFFFF;
     letter-spacing: 4px;
     color: #FFFFFF;
     font-family: 'Irish Grover';
-    width: 230px;
+    width: 240px;
     height: 70px;
     margin-top: 40px;
-    margin-left: 0px;
+    margin-left: 10px;
+    padding-left: 10px;
 }
 .Menu_tag{
     font-size: 64px;
@@ -775,8 +781,8 @@ margin-right: 0px;
     width: 100%;
 }
 .Block_info{
-    width: 335px;
-    height: 610px;
+    width: 380px;
+    height: 630px;
     background-color: #BFBFBF;
     border-radius: 40px;
 }
@@ -795,10 +801,10 @@ margin-right: 0px;
     border-radius: 10px;
 }
 .img_info{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin-top: 25px;
-    margin-left: 25px;
+    margin-left: 0px;
 }
 .Block_info2{
     width: 330px;
@@ -810,10 +816,14 @@ margin-right: 0px;
     
 }
 .Block_info{
-    width: 275px;
+    width: 330px;
     height: 610px;
     background-color: #BFBFBF;
     border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .Button_block_menu{
     width: 50px;
@@ -896,8 +906,8 @@ display: none;
     align-items: center;
 }
 .Update_block{
-    height: 1950px;
-    width: 325px;
+    height: 1180px;
+    width: 350px;
     background-size: 325px 1300px;
     border-radius: 50px;
     flex-direction: row;
@@ -915,19 +925,20 @@ display: none;
     background-image: url(https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-1.2.1&w=1440&h=740);
     filter: saturate(40%);
     width: 100%;
-    height: 2100px;
+    height: 1280px;
 }
 .Update_menu2{
-    width: 260px;
-    height: 1900px;
+    width: 350px;
+    height: 1180px;
     border-radius:30px ;
 }
 .Upd_menu1{
-    width: 260px;
-    height: 1900px;
-    border: 3px solid white;
+    width: 350px;
+    height: 1180px;
+    border: 0px solid white;
     border-radius: 40px;
-    
+    margin-top: 0px;
+    margin-left: -30px;
 }
 .Update{
     display: none;
@@ -935,9 +946,14 @@ display: none;
 .b{
     height: 100px;
     background-color:#353c60 ;
+    display: flex;
+    flex-direction: space-around;
+    justify-content: center;
     width: 100%;
 }
 .nameS{
+    margin-top: 30px;
+    margin-right: 0px;
     font-size: 24px;
     font-family: 'Irish Grover';
     color: #FFFFFF;
@@ -945,7 +961,15 @@ display: none;
 .security{
     font-size: 20px;
 }
-.b{
-    display: none;
+.Update_block{
+    animation: none;
+    filter: saturate(1000%);
+}
+.Update_p{
+    font-size: 20px;
+    font-family: 'Irish Grover';
+    color: white;
+    margin-left: 15px;
+    margin-right: 10px;
 }
 }
