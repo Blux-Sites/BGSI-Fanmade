@@ -1004,7 +1004,7 @@ display: none;
     margin-right: 10px;
 }
 }
-@media (min-width: 381px) and (max-width: 500px){
+@media (min-width: 381px) and (max-width: 420px){
     .Title{
     font-size: 52px;
     font-family: 'Irish Grover';
