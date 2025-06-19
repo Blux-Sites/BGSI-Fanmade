@@ -447,9 +447,10 @@ color: #FFFFFF;
     background-image: url(https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-1.2.1&w=1440&h=740);
     filter: saturate(40%);
     width: 100%;
+    height: 880px;
 }
 .Update_block{
-    height: 580px;
+    height: 730px;
     width: 1300px;
     background-size: 1300px 610px;
     border-radius: 50px;
@@ -470,7 +471,7 @@ color: #FFFFFF;
 }
 .Update_menu2{
     width: 1230px;
-    height: 230px;
+    height: 380px;
     border-radius:30px ;
     flex-direction: row;
     display: flex;
@@ -478,14 +479,14 @@ color: #FFFFFF;
 }
 .Upd_menu1{
     width: 1235px;
-    height: 535px;
+    height: 685px;
     margin-top: 25px;
     border: 3px solid white;
     border-radius: 40px;
 }
 .Upd_menu2{
     width: 1315px;
-    height: 535px;
+    height: 735px;
     margin-top: 25px;
     border: 3px solid white;
     border-radius: 40px;
@@ -661,8 +662,8 @@ color: #FFFFFF;
     .spinner {
       width: 100px;
       height: 100px;
-      border: 10px solid #ddd;
-      border-top: 8px solid rgb(41, 61, 163, 70%);
+      border: 20px solid #ddd;
+      border-top: 16px solid rgb(41, 61, 163, 70%);
       border-radius: 50%;
       animation: spin 1s linear infinite;
       margin-bottom: 20px;
