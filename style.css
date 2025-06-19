@@ -713,13 +713,13 @@ color: #FFFFFF;
 #timer {
     font-size:32px;
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: #FFFFFF;
     font-family: 'Irish Grover';
-    width: 240px;
+    width: 230px;
     height: 70px;
     margin-top: 40px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 .Menu_tag{
     font-size: 64px;
