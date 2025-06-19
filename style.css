@@ -711,12 +711,12 @@ color: #FFFFFF;
     padding-top: 3px;
 }
 #timer {
-    font-size:36px;
+    font-size:32px;
     font-weight: bold;
     letter-spacing: 4px;
     color: #FFFFFF;
     font-family: 'Irish Grover';
-    width: 260px;
+    width: 240px;
     height: 70px;
     margin-top: 40px;
     margin-left: 5px;
