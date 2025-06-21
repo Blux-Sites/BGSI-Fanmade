@@ -242,3 +242,64 @@ if (!isUpdateTime) {
         }, 0);
     }, 5000);
 }
+function createHoldListener(element, targetPage, holdDuration = 5000) {
+    let holdTimer = null;
+    let touchIdentifier = null;
+
+    // Функция запуска таймера
+    function startHold(event) {
+        // Для сенсорных событий предотвращаем стандартное поведение
+        if (event.type === 'touchstart') {
+            event.preventDefault();
+            touchIdentifier = event.changedTouches[0].identifier;
+        }
+
+        clearTimeout(holdTimer);
+        holdTimer = setTimeout(() => {
+            window.location.href = targetPage;
+        }, holdDuration);
+    }
+
+    // Функция сброса таймера
+    function cancelHold() {
+        clearTimeout(holdTimer);
+    }
+
+    // Проверка выхода за пределы элемента (для touch)
+    function checkTouchBounds(event) {
+        if (!touchIdentifier) return;
+        
+        const touch = Array.from(event.touches).find(t => t.identifier === touchIdentifier);
+        if (!touch) return;
+        
+        const rect = element.getBoundingClientRect();
+        const { clientX, clientY } = touch;
+        
+        if (
+            clientX < rect.left || 
+            clientX > rect.right || 
+            clientY < rect.top || 
+            clientY > rect.bottom
+        ) {
+            cancelHold();
+        }
+    }
+
+    // Добавляем обработчики событий
+    element.addEventListener('mousedown', startHold);
+    element.addEventListener('touchstart', startHold, { passive: false });
+
+    element.addEventListener('mouseup', cancelHold);
+    element.addEventListener('mouseleave', cancelHold);
+    element.addEventListener('touchend', cancelHold);
+    element.addEventListener('touchcancel', cancelHold);
+    
+    element.addEventListener('touchmove', checkTouchBounds);
+}
+// Пример использования
+const myElement = document.getElementById('Title');
+createHoldListener(
+    myElement,       // DOM-элемент
+    'game.html',  // Страница для перехода
+    5000            // Время удержания в миллисекундах (10 сек)
+);
