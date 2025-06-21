@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', function() {
         tags.forEach(tag => {
             tag.classList.add('animate');
         });
-    }, 2200);
+    }, 5200);
 });
 // Проверка на обновление (суббота 11:30)
 function checkForUpdate() {
@@ -240,5 +240,5 @@ if (!isUpdateTime) {
             preloader.style.display = 'none';
             if (content) content.style.display = 'block';
         }, 0);
-    }, 2000);
+    }, 5000);
 }
